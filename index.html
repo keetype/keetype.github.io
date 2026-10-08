@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keetype - Performance Gear Recommendations</title>
+  
+  <!-- Font Definitions -->
+  <style>
+    @font-face {
+      font-family: 'PlayFont';
+      src: url('fonts/play.ttf') format('truetype');
+      font-display: swap;
+    }
+  </style>
+
+  <!-- Modular Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/tiles.css">
+  <link rel="stylesheet" href="css/modal.css">
+</head>
+<body data-page="home">
+
+  <!-- =======================================================================
+       Header: Brand on Left, Search Bar in Center, DB Selector on Right
+       ======================================================================= -->
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="brand" title="Keetype Home">
+        <span class="brand-logo">keetype</span>
+        <span class="brand-dot"></span>
+      </a>
+
+      <!-- Search Bar in Header with Instant Autocomplete Suggestions -->
+      <div class="header-search">
+        <div class="search-wrapper">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input 
+            type="text" 
+            id="searchInput" 
+            class="search-input" 
+            placeholder="Search gear across all libraries (e.g. Statice Seraph, Titan75)..." 
+            autocomplete="off"
+            spellcheck="false"
+          >
+          <button id="searchClearBtn" class="search-clear-btn" title="Clear search">&times;</button>
+        </div>
+        <!-- Live Suggestions Dropdown (Pops up full product modal on select) -->
+        <div id="searchSuggestions" class="search-suggestions"></div>
+      </div>
+
+      <!-- Header Right: Database Selector -->
+      <div class="header-actions">
+        <div class="db-status-bar">
+          <span id="dbIndicator" class="db-indicator" title="Database status"></span>
+          <select id="dbSourceSelect" class="db-select" title="Switch active database">
+            <option value="google_sheets">Live Sheets</option>
+            <option value="fallback">Fallback DB</option>
+          </select>
+          <button id="syncDbBtn" class="btn-sync" title="Sync live Google Sheets">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="23 4 23 10 17 10"></polyline>
+              <polyline points="1 20 1 14 7 14"></polyline>
+              <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- =======================================================================
+       Home Page Main: Minimalist Center + Category Buttons at the Bottom
+       ======================================================================= -->
+  <main class="container home-container">
+    
+    <!-- Centered Minimal Hero (Google x EloShapes vibe) -->
+    <section class="home-hero">
+      <div class="home-hero-title">
+        <span>keetype</span>
+        <span class="home-hero-dot"></span>
+      </div>
+      <p class="home-hero-subtitle">
+        Curated performance gear recommendations, hardware tier lists, and community benchmarks.
+      </p>
+
+      <div class="home-hero-actions">
+        <a href="keyboards.html" class="btn-hero btn-hero-primary">Browse Libraries</a>
+        <button id="randomGearBtn" class="btn-hero">Feeling Lucky</button>
+      </div>
+    </section>
+
+    <!-- Category Buttons at the Bottom -->
+    <section class="home-bottom-categories">
+      <div class="home-categories-header">Select a Library</div>
+      <div class="home-category-buttons-grid">
+        
+        <!-- 1. Hall Effect Keyboards -->
+        <a href="keyboards.html" class="home-cat-button">
+          <div class="home-cat-button-top">
+            <span class="home-cat-icon">⌨️</span>
+            <span class="home-cat-badge" id="badge-keyboards">HE Keyboards</span>
+          </div>
+          <div class="home-cat-name">Hall Effect Keyboards</div>
+          <div class="home-cat-desc" id="count-keyboards">Rapid trigger & HE keyboards ranked</div>
+        </a>
+
+        <!-- 2. Glass Mousepads -->
+        <a href="mousepads.html" class="home-cat-button">
+          <div class="home-cat-button-top">
+            <span class="home-cat-icon">🧊</span>
+            <span class="home-cat-badge" id="badge-mousepads">Glass Pads</span>
+          </div>
+          <div class="home-cat-name">Glass Mousepads</div>
+          <div class="home-cat-desc" id="count-mousepads">Ranked Speed → Control</div>
+        </a>
+
+        <!-- 3. Skates -->
+        <a href="skates.html" class="home-cat-button">
+          <div class="home-cat-button-top">
+            <span class="home-cat-icon">⚪</span>
+            <span class="home-cat-badge" id="badge-skates">Skates</span>
+          </div>
+          <div class="home-cat-name">Skates</div>
+          <div class="home-cat-desc" id="count-skates">For cloth & glass mousepads</div>
+        </a>
+
+        <!-- 4. Mice (Soon) -->
+        <a href="mice.html" class="home-cat-button">
+          <div class="home-cat-button-top">
+            <span class="home-cat-icon">🖱️</span>
+            <span class="home-cat-badge">Soon</span>
+          </div>
+          <div class="home-cat-name">Mice</div>
+          <div class="home-cat-desc">Testing top gaming mice</div>
+        </a>
+
+        <!-- 5. Cloth Mousepads (Soon) -->
+        <a href="cloth-mousepads.html" class="home-cat-button">
+          <div class="home-cat-button-top">
+            <span class="home-cat-icon">⬛</span>
+            <span class="home-cat-badge">Soon</span>
+          </div>
+          <div class="home-cat-name">Cloth Mousepads</div>
+          <div class="home-cat-desc">Artisan & cloth pads in testing</div>
+        </a>
+
+        <!-- 6. MX Keyboards (Soon) -->
+        <a href="mx-keyboards.html" class="home-cat-button">
+          <div class="home-cat-button-top">
+            <span class="home-cat-icon">⌨️</span>
+            <span class="home-cat-badge">Soon</span>
+          </div>
+          <div class="home-cat-name">MX Keyboards</div>
+          <div class="home-cat-desc">Mechanical MX keyboards</div>
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =======================================================================
+       Product Details Modal Popup (Search suggestions & Feeling Lucky)
+       ======================================================================= -->
+  <div id="productModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button id="modalCloseBtn" class="modal-close-btn" title="Close modal (Esc)">&times;</button>
+      <div id="modalBody" class="modal-body">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- =======================================================================
+       Footer
+       ======================================================================= -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-credits">
+        Made with care by <strong>aasd</strong> &copy;2026
+      </div>
+      <div class="footer-meta">
+        Keetype Gear Recs • Community Curated & Tested
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/config.js"></script>
+  <script src="js/fallbackData.js"></script>
+  <script src="js/overrides.js"></script>
+  <script src="js/fetcher.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

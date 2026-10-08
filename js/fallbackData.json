@@ -1,0 +1,1093 @@
+{
+  "keyboards": [
+    {
+      "id": "atk-hex80",
+      "model": "ATK Hex80",
+      "category": "Flagship",
+      "size": "",
+      "tier": "2",
+      "caseMaterial": "Metal",
+      "notes": "ISSUES WITH FLASHING RGB SOLDERING CURRENTLY",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "tekkusai-titan75",
+      "model": "Tekkusai Titan75",
+      "category": "Flagship",
+      "size": "75%",
+      "tier": "4",
+      "caseMaterial": "Metal",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "everglide-su75-pro-v2",
+      "model": "Everglide Su75 Pro V2",
+      "category": "Flagship",
+      "size": "75%",
+      "tier": "4",
+      "caseMaterial": "Metal",
+      "notes": "for now I recommend getting the Wukong switches, as I have no idea how YaoGuang's perform",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "chilkey-slice75-he",
+      "model": "Chilkey Slice75 HE",
+      "category": "Flagship",
+      "size": "75%",
+      "tier": "3",
+      "caseMaterial": "Metal",
+      "notes": "Only get the WS Flux switch variant, bad stabilizers",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "irok-mg75-v2",
+      "model": "Irok MG75 V2",
+      "category": "Flagship",
+      "size": "75%",
+      "tier": "4",
+      "caseMaterial": "Metal",
+      "notes": "Dual-sparklink MCU",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "chilkey-slice68-he",
+      "model": "Chilkey Slice68 HE",
+      "category": "Flagship",
+      "size": "65%",
+      "tier": "3",
+      "caseMaterial": "Metal",
+      "notes": "Only get the WS Flux switch variant",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "morkblade-mk60",
+      "model": "Morkblade MK60",
+      "category": "Flagship",
+      "size": "60%",
+      "tier": "4",
+      "caseMaterial": "Metal",
+      "notes": "Only get the Aula switch variant",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "weikav-eg75",
+      "model": "Weikav EG75",
+      "category": "Mid-range",
+      "size": "75%",
+      "tier": "2",
+      "caseMaterial": "Metal",
+      "notes": "get the ying-xue (sakura snow) switches. spray coatings arent great.",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "irok-mg75-max",
+      "model": "Irok MG75 Max",
+      "category": "Mid-range",
+      "size": "75%",
+      "tier": "2",
+      "caseMaterial": "Metal",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "nuphy-air75-he",
+      "model": "Nuphy Air75 HE",
+      "category": "Mid-range",
+      "size": "75%",
+      "tier": "1",
+      "caseMaterial": "metal top, plastic bottom",
+      "notes": "rare low profile option",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "everglide-ae68-pro",
+      "model": "Everglide AE68 Pro",
+      "category": "Mid-range",
+      "size": "65%",
+      "tier": "3",
+      "caseMaterial": "Metal",
+      "notes": "Preferably Wukong switches",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "irok-mg68-plus",
+      "model": "Irok MG68 Plus",
+      "category": "Mid-range",
+      "size": "65%",
+      "tier": "2",
+      "caseMaterial": "Metal",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "nuphy-air60-he",
+      "model": "Nuphy Air60 HE",
+      "category": "Mid-range",
+      "size": "60%",
+      "tier": "1",
+      "caseMaterial": "metal top, plastic bottom",
+      "notes": "rare low profile option",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "everglide-ae64-pro",
+      "model": "Everglide AE64 Pro",
+      "category": "Mid-range",
+      "size": "60%",
+      "tier": "3",
+      "caseMaterial": "Metal",
+      "notes": "Usually sold as PCB-only, rarely as a kit or a complete",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "vgn-neon-75-ultra",
+      "model": "VGN Neon 75 Ultra",
+      "category": "Budget",
+      "size": "75%",
+      "tier": "2",
+      "caseMaterial": "Metal",
+      "notes": "Wireless",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "vgn-neon-75-he",
+      "model": "VGN Neon 75 HE+",
+      "category": "Budget",
+      "size": "75%",
+      "tier": "2",
+      "caseMaterial": "Plastic",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "vgn-neon-75-he",
+      "model": "VGN Neon 75 HE",
+      "category": "Budget",
+      "size": "75%",
+      "tier": "2",
+      "caseMaterial": "Plastic",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "irok-mars75-pro",
+      "model": "Irok Mars75 Pro",
+      "category": "Budget",
+      "size": "75%",
+      "tier": "2",
+      "caseMaterial": "Plastic",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "irok-mars75",
+      "model": "Irok Mars75",
+      "category": "Budget",
+      "size": "75%",
+      "tier": "1",
+      "caseMaterial": "Plastic",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "everglide-ae68-pro",
+      "model": "Everglide AE68 Pro",
+      "category": "Budget",
+      "size": "65%",
+      "tier": "3",
+      "caseMaterial": "Plastic",
+      "notes": "Preferably Wukong switches",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "irok-mercury68-max",
+      "model": "Irok Mercury68 Max",
+      "category": "Budget",
+      "size": "65%",
+      "tier": "1",
+      "caseMaterial": "Plastic",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "irok-nd63-ultra",
+      "model": "Irok ND63 Ultra",
+      "category": "Budget",
+      "size": "60%",
+      "tier": "1",
+      "caseMaterial": "Plastic",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    }
+  ],
+  "mousepads": [
+    {
+      "id": "kyomi-yuyo",
+      "model": "Kyomi Yuyo",
+      "category": "By dangly, aasd, and micro (and Ness)  |  Ordered Speed \u2192 Control (top to bottom)",
+      "coating": "Coated",
+      "notes": "Fine textured, extremely fast, slightly faster and smoother than Ryo. Less push-down braking than Ryo.",
+      "availability": "yes",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "dysphoria-rin",
+      "model": "Dysphoria Rin",
+      "category": "Ultra Speed",
+      "coating": "Coated",
+      "notes": "Textured, one of the fastest glasspads on the market, smidge behind kyomi Ryo and Yuyo. Lots of push down slowdown.",
+      "availability": "yes (region)",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "dysphoria-mio",
+      "model": "Dysphoria Mio",
+      "category": "Ultra Speed",
+      "coating": "Coated",
+      "notes": "Subtly Textured, very fast, somewhat slower than Rin.",
+      "availability": "no",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "hachiware-ice",
+      "model": "Hachiware Ice",
+      "category": "Ultra Speed",
+      "coating": "Coated",
+      "notes": "Very textured, little to no push-down behaviour. Around Apex / fast Sayo speed, slower than Rin",
+      "availability": "yes",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "statice-seraph",
+      "model": "Statice Seraph",
+      "category": "Ultra Speed",
+      "coating": "Coated/Uncoated",
+      "notes": "Smooth, very fast, especially the coated option",
+      "availability": "no",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "mitsuki-yusui",
+      "model": "Mitsuki Yusui",
+      "category": "Ultra Speed",
+      "coating": "Coated",
+      "notes": "Very smooth, around as fast if not a little faster than Sayo.",
+      "availability": "no",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "dysphoria-sayo",
+      "model": "Dysphoria Sayo",
+      "category": "Ultra Speed",
+      "coating": "Coated",
+      "notes": "Smooth, extremely fast glasspad, Dysphoria pads are excellent. Little to no pushdown, fastest glasspad on the market in measured push down tests.",
+      "availability": "yes",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "tekkusai-apex",
+      "model": "Tekkusai Apex",
+      "category": "Ultra Speed",
+      "coating": "Coated",
+      "notes": "Fine textured, extremely fast, around/slightly faster than Sayo, slows with push down noticeably.",
+      "availability": "yes",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "dysphoria-maki",
+      "model": "Dysphoria Maki",
+      "category": "Ultra Speed",
+      "coating": "Coated",
+      "notes": "Smooth, more controllable dynamic than Sayo",
+      "availability": "yes",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "tenta-x-issen",
+      "model": "Tenta-x Issen",
+      "category": "Ultra Speed",
+      "coating": "Uncoated",
+      "notes": "Lightly textured, one of the fastest uncoated glasspads on the market, great pad",
+      "availability": "no",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "talongames-inari",
+      "model": "Talongames Inari",
+      "category": "Ultra Speed",
+      "coating": "Coated",
+      "notes": "Very smooth, fast, extremely thin 1mm glass, still not sure how it compares to other pads in this category. Slightly slower than Tekk beast, so probably slower than issen. Horrendous art.",
+      "availability": "yes",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "dysphoria-nana",
+      "model": "Dysphoria Nana",
+      "category": "Speed",
+      "coating": "Uncoated",
+      "notes": "Smooth-ish with some texture, fast uncoated surface. handles dust and humidity well.",
+      "availability": "yes",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "attack-shark-cm05",
+      "model": "Attack Shark CM05",
+      "category": "Speed",
+      "coating": "Coated",
+      "notes": "Fast and smooth, cheap last resort usable pad",
+      "availability": "yes",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "yuki-aim-mecha",
+      "model": "Yuki Aim Mecha",
+      "category": "Balance-Speed",
+      "coating": "Coated",
+      "notes": "Fairly textured, decent general-purpose speed pad. Art is questionable.",
+      "availability": "yes",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "psyche-gear-mid-01-yeku",
+      "model": "Psyche Gear MID-01 YEKU",
+      "category": "Balance-Speed",
+      "coating": "Uncoated",
+      "notes": "Lightly textured, great art, inoffensive surface.",
+      "availability": "yes",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "matrova-yang",
+      "model": "Matrova Yang",
+      "category": "Balance-Speed",
+      "coating": "Coated",
+      "notes": "Smooth, offers custom graphics. Beware Matrova shipping.",
+      "availability": "yes",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "tenta-x-yasha",
+      "model": "Tenta-x Yasha",
+      "category": "Balance-Speed",
+      "coating": "Coated",
+      "notes": "Smooth, very fast, slightly slower than Issen",
+      "availability": "no",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "bythere-tgf1",
+      "model": "Bythere TGF1",
+      "category": "Balance-Speed",
+      "coating": "Coated",
+      "notes": "Textured, balance-speed pad, its fine",
+      "availability": "yes",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "lock-on-odyssey",
+      "model": "Lock-on Odyssey",
+      "category": "Balance-Speed",
+      "coating": "Uncoated",
+      "notes": "Quite textured, control pad if pushed down",
+      "availability": "yes",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "talongames-nagisa",
+      "model": "Talongames Nagisa",
+      "category": "Balance",
+      "coating": "Uncoated",
+      "notes": "Smooth, easily accessible option",
+      "availability": "yes",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "pulsar-superglide-v3-type-s",
+      "model": "Pulsar Superglide v3 Type S",
+      "category": "Balance",
+      "coating": "Uncoated",
+      "notes": "Smooth, very good starter option",
+      "availability": "yes",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "matrova-yin",
+      "model": "Matrova Yin",
+      "category": "Control-Balance",
+      "coating": "Uncoated",
+      "notes": "Quite textured, offers custom graphics",
+      "availability": "yes",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "glsswrks-polarity",
+      "model": "Glsswrks Polarity",
+      "category": "Control-Balance",
+      "coating": "Coated",
+      "notes": "Smooth, balance, one of the best glasspads on the market, especially for beginners | Choose black colorway only. White and Silver colorways cause tracking errors due to reflections.",
+      "availability": "no",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "glsswrks-zofia-polarity-v2",
+      "model": "Glsswrks Zofia/Polarity v2",
+      "category": "Control-Balance",
+      "coating": "Coated",
+      "notes": "Smooth, quite controlled, good anti skin stick, zofia art is terrible.",
+      "availability": "no (soon)",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "tenta-x-sente",
+      "model": "Tenta-x Sente",
+      "category": "Control",
+      "coating": "Uncoated",
+      "notes": "Very smooth, great pad, love you Azar (unbiased)",
+      "availability": "no",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "hachiware-zero",
+      "model": "Hachiware Zero",
+      "category": "Control",
+      "coating": "Uncoated",
+      "notes": "Textured, good pad overall, lots of braking.",
+      "availability": "yes",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "x-raypad-nod-cr-x1",
+      "model": "X-RAYPAD NOD CR-X1",
+      "category": "Control",
+      "coating": "Uncoated",
+      "notes": "Textured, vastly available option | Lasts only 6-12 months according to X-RayPad.",
+      "availability": "yes",
+      "lastUpdate": "28/09/2026"
+    }
+  ],
+  "skates": [
+    {
+      "id": "elite5-pom",
+      "model": "Elite5 POM",
+      "clothSpeed": "Ultra-fast",
+      "glassSpeed": "",
+      "material": "POM",
+      "format": "dots",
+      "texture": "textured",
+      "foam": "no",
+      "notes": "Cloth: POM skates tend to work better on speed/textured surfaces",
+      "clothNotes": "POM skates tend to work better on speed/textured surfaces",
+      "glassNotes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "phantum-cloud-s1",
+      "model": "Phantum Cloud S1",
+      "clothSpeed": "Fast",
+      "glassSpeed": "Ultra-fast",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "Cloth: Fastest PTFE's Shwamper has tested | Glass: fastest PTFE Shwamper has tested",
+      "clothNotes": "Fastest PTFE's Shwamper has tested",
+      "glassNotes": "fastest PTFE Shwamper has tested",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "owepowe-eagle-speed",
+      "model": "Owepowe Eagle Speed",
+      "clothSpeed": "Fast",
+      "glassSpeed": "",
+      "material": "PTFE",
+      "format": "dots/multiple sizes",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "Cloth: slightly thicker coming in at 1.05mm vs the Kumo's\n0.85m due to slightly thicker foam",
+      "clothNotes": "slightly thicker coming in at 1.05mm vs the Kumo's\n0.85m due to slightly thicker foam",
+      "glassNotes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "talongames-kumo",
+      "model": "TalonGames Kumo",
+      "clothSpeed": "Fast",
+      "glassSpeed": "",
+      "material": "Reinforced PTFE",
+      "format": "dots/multiple sizes",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "Cloth: speed-wise, very close to Owepowe's, pad dependant",
+      "clothNotes": "speed-wise, very close to Owepowe's, pad dependant",
+      "glassNotes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "waizowl-x-kibu-shiro",
+      "model": "Waizowl x Kibu Shiro",
+      "clothSpeed": "Fast",
+      "glassSpeed": "",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "very smooth",
+      "foam": "no",
+      "notes": "",
+      "clothNotes": "",
+      "glassNotes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "project-w-accel",
+      "model": "Project W Accel",
+      "clothSpeed": "Fast",
+      "glassSpeed": "",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "Cloth: a good alternative to X-rayPad Jades",
+      "clothNotes": "a good alternative to X-rayPad Jades",
+      "glassNotes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "tbtl-v2-control",
+      "model": "TBTL V2 Control",
+      "clothSpeed": "Medium-fast",
+      "glassSpeed": "",
+      "material": "PTFE",
+      "format": "multiple shapes/sizes",
+      "texture": "very smooth",
+      "foam": "no",
+      "notes": "",
+      "clothNotes": "",
+      "glassNotes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "west-lab-cream",
+      "model": "West Lab Cream",
+      "clothSpeed": "Medium",
+      "glassSpeed": "Medium",
+      "material": "Powdered PTFE",
+      "format": "dots",
+      "texture": "slightly textured",
+      "foam": "yes",
+      "notes": "Glass: powdered PTFE so might run out quicker than desired",
+      "clothNotes": "",
+      "glassNotes": "powdered PTFE so might run out quicker than desired",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "kyuu-design-lian",
+      "model": "KYUU DESIGN Lian",
+      "clothSpeed": "Medium",
+      "glassSpeed": "Medium",
+      "material": "PTFE & Natural \nHardening \nMinerals",
+      "format": "dots",
+      "texture": "slightly textured",
+      "foam": "yes",
+      "notes": "Glass: OEM Cyclone Pro clone, simply cheaper",
+      "clothNotes": "",
+      "glassNotes": "OEM Cyclone Pro clone, simply cheaper",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "dreamgamer-neptune",
+      "model": "DreamGamer Neptune",
+      "clothSpeed": "Medium",
+      "glassSpeed": "Medium-control",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "",
+      "clothNotes": "",
+      "glassNotes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "ug-silencer",
+      "model": "UG Silencer",
+      "clothSpeed": "Medium",
+      "glassSpeed": "",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "Cloth: There's been news that MGG/UG has stopped putting foam in their skates",
+      "clothNotes": "There's been news that MGG/UG has stopped putting foam in their skates",
+      "glassNotes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "ducklab-cui-green",
+      "model": "Ducklab Cui (Green)",
+      "clothSpeed": "Medium-control",
+      "glassSpeed": "Medium",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "fairly textured",
+      "foam": "yes",
+      "notes": "Cloth: might be too thick for some mice/LODs",
+      "clothNotes": "might be too thick for some mice/LODs",
+      "glassNotes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "ducklab-ci-blue",
+      "model": "Ducklab Ci (Blue)",
+      "clothSpeed": "Medium-control",
+      "glassSpeed": "Medium-control",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "slightly textured",
+      "foam": "yes",
+      "notes": "",
+      "clothNotes": "",
+      "glassNotes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "ug-brake-matt",
+      "model": "UG Brake Matt",
+      "clothSpeed": "Control-fast",
+      "glassSpeed": "",
+      "material": "UHMW-PE",
+      "format": "dots",
+      "texture": "very smooth",
+      "foam": "yes",
+      "notes": "",
+      "clothNotes": "",
+      "glassNotes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "dreamgamer-saturn",
+      "model": "DreamGamer Saturn",
+      "clothSpeed": "Control",
+      "glassSpeed": "",
+      "material": "UHMW-PE",
+      "format": "dots",
+      "texture": "slightly textured",
+      "foam": "yes",
+      "notes": "Cloth: CURRENTLY SELLING A BAD BATCH",
+      "clothNotes": "CURRENTLY SELLING A BAD BATCH",
+      "glassNotes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "tbtl-upe",
+      "model": "TBTL UPE",
+      "clothSpeed": "Control",
+      "glassSpeed": "",
+      "material": "UHMW-PE",
+      "format": "dots",
+      "texture": "very smooth",
+      "foam": "no",
+      "notes": "",
+      "clothNotes": "",
+      "glassNotes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "west-lab-orange",
+      "model": "West Lab Orange",
+      "clothSpeed": "",
+      "glassSpeed": "Ultra-fast",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "slightly textured",
+      "foam": "yes",
+      "notes": "",
+      "clothNotes": "",
+      "glassNotes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "unws-magic-ice-plus",
+      "model": "UNWS Magic Ice Plus",
+      "clothSpeed": "",
+      "glassSpeed": "Fast",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "very smooth",
+      "foam": "yes",
+      "notes": "Glass: probably the smoothest out of this selection",
+      "clothNotes": "",
+      "glassNotes": "probably the smoothest out of this selection",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "west-lab-black",
+      "model": "West Lab Black",
+      "clothSpeed": "",
+      "glassSpeed": "Medium-fast",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "Glass: smoother and thicker oranges",
+      "clothNotes": "",
+      "glassNotes": "smoother and thicker oranges",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "mgg-ug-silencer",
+      "model": "MGG/UG Silencer",
+      "clothSpeed": "",
+      "glassSpeed": "Medium-fast",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "very smooth",
+      "foam": "yes",
+      "notes": "",
+      "clothNotes": "",
+      "glassNotes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "ducklab-yu-white",
+      "model": "Ducklab Yu (White)",
+      "clothSpeed": "",
+      "glassSpeed": "Medium",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "slightly textured",
+      "foam": "yes",
+      "notes": "Glass: Bigger and thicker KYUU Design Lian",
+      "clothNotes": "",
+      "glassNotes": "Bigger and thicker KYUU Design Lian",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "west-lab-grey",
+      "model": "West Lab Grey",
+      "clothSpeed": "",
+      "glassSpeed": "Control",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "",
+      "clothNotes": "",
+      "glassNotes": "",
+      "lastUpdate": "28/09/2026"
+    }
+  ],
+  "skatesCloth": [
+    {
+      "id": "elite5-pom",
+      "model": "Elite5 POM",
+      "clothSpeed": "Ultra-fast",
+      "material": "POM",
+      "format": "dots",
+      "texture": "textured",
+      "foam": "no",
+      "notes": "POM skates tend to work better on speed/textured surfaces",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "phantum-cloud-s1",
+      "model": "Phantum Cloud S1",
+      "clothSpeed": "Fast",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "Fastest PTFE's Shwamper has tested",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "owepowe-eagle-speed",
+      "model": "Owepowe Eagle Speed",
+      "clothSpeed": "Fast",
+      "material": "PTFE",
+      "format": "dots/multiple sizes",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "slightly thicker coming in at 1.05mm vs the Kumo's\n0.85m due to slightly thicker foam",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "talongames-kumo",
+      "model": "TalonGames Kumo",
+      "clothSpeed": "Fast",
+      "material": "Reinforced PTFE",
+      "format": "dots/multiple sizes",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "speed-wise, very close to Owepowe's, pad dependant",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "waizowl-x-kibu-shiro",
+      "model": "Waizowl x Kibu Shiro",
+      "clothSpeed": "Fast",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "very smooth",
+      "foam": "no",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "project-w-accel",
+      "model": "Project W Accel",
+      "clothSpeed": "Fast",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "a good alternative to X-rayPad Jades",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "tbtl-v2-control",
+      "model": "TBTL V2 Control",
+      "clothSpeed": "Medium-fast",
+      "material": "PTFE",
+      "format": "multiple shapes/sizes",
+      "texture": "very smooth",
+      "foam": "no",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "west-lab-cream",
+      "model": "West Lab Cream",
+      "clothSpeed": "Medium",
+      "material": "Powdered PTFE",
+      "format": "dots",
+      "texture": "slightly textured",
+      "foam": "yes",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "kyuu-design-lian",
+      "model": "KYUU DESIGN Lian",
+      "clothSpeed": "Medium",
+      "material": "PTFE & Natural \nHardening \nMinerals",
+      "format": "dots",
+      "texture": "slightly textured",
+      "foam": "yes",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "dreamgamer-neptune",
+      "model": "DreamGamer Neptune",
+      "clothSpeed": "Medium",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "ug-silencer",
+      "model": "UG Silencer",
+      "clothSpeed": "Medium",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "There's been news that MGG/UG has stopped putting foam in their skates",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "ducklab-cui-green",
+      "model": "Ducklab Cui (Green)",
+      "clothSpeed": "Medium-control",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "fairly textured",
+      "foam": "yes",
+      "notes": "might be too thick for some mice/LODs",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "ducklab-ci-blue",
+      "model": "Ducklab Ci (Blue)",
+      "clothSpeed": "Medium-control",
+      "material": "PTFE",
+      "format": "dots",
+      "texture": "slightly textured",
+      "foam": "yes",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "ug-brake-matt",
+      "model": "UG Brake Matt",
+      "clothSpeed": "Control-fast",
+      "material": "UHMW-PE",
+      "format": "dots",
+      "texture": "very smooth",
+      "foam": "yes",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "dreamgamer-saturn",
+      "model": "DreamGamer Saturn",
+      "clothSpeed": "Control",
+      "material": "UHMW-PE",
+      "format": "dots",
+      "texture": "slightly textured",
+      "foam": "yes",
+      "notes": "CURRENTLY SELLING A BAD BATCH",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "tbtl-upe",
+      "model": "TBTL UPE",
+      "clothSpeed": "Control",
+      "material": "UHMW-PE",
+      "format": "dots",
+      "texture": "very smooth",
+      "foam": "no",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    }
+  ],
+  "skatesGlass": [
+    {
+      "id": "phantum-cloud-s1",
+      "model": "Phantum Cloud S1",
+      "glassSpeed": "Ultra-fast",
+      "format": "dots",
+      "texture": "quite textured",
+      "foam": "yes",
+      "notes": "fastest PTFE Shwamper has tested",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "west-lab-orange",
+      "model": "West Lab Orange",
+      "glassSpeed": "Ultra-fast",
+      "format": "dots",
+      "texture": "slightly textured",
+      "foam": "yes",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "unws-magic-ice-plus",
+      "model": "UNWS Magic Ice Plus",
+      "glassSpeed": "Fast",
+      "format": "dots",
+      "texture": "very smooth",
+      "foam": "yes",
+      "notes": "probably the smoothest out of this selection",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "west-lab-black",
+      "model": "West Lab Black",
+      "glassSpeed": "Medium-fast",
+      "format": "dots",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "smoother and thicker oranges",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "mgg-ug-silencer",
+      "model": "MGG/UG Silencer",
+      "glassSpeed": "Medium-fast",
+      "format": "dots",
+      "texture": "very smooth",
+      "foam": "yes",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "kyuu-design-lian",
+      "model": "KYUU Design Lian",
+      "glassSpeed": "Medium",
+      "format": "dots",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "OEM Cyclone Pro clone, simply cheaper",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "west-lab-cream",
+      "model": "West Lab Cream",
+      "glassSpeed": "Medium",
+      "format": "dots",
+      "texture": "quite textured",
+      "foam": "yes",
+      "notes": "powdered PTFE so might run out quicker than desired",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "ducklab-yu-white",
+      "model": "Ducklab Yu (White)",
+      "glassSpeed": "Medium",
+      "format": "dots",
+      "texture": "slightly textured",
+      "foam": "yes",
+      "notes": "Bigger and thicker KYUU Design Lian",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "ducklab-cui-green",
+      "model": "Ducklab Cui (Green)",
+      "glassSpeed": "Medium",
+      "format": "dots",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "ducklab-ci-blue",
+      "model": "Ducklab Ci (Blue)",
+      "glassSpeed": "Medium-control",
+      "format": "dots",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "dreamgamer-neptune",
+      "model": "DreamGamer Neptune",
+      "glassSpeed": "Medium-control",
+      "format": "dots",
+      "texture": "quite textured",
+      "foam": "yes",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    },
+    {
+      "id": "west-lab-grey",
+      "model": "West Lab Grey",
+      "glassSpeed": "Control",
+      "format": "dots",
+      "texture": "smooth",
+      "foam": "yes",
+      "notes": "",
+      "lastUpdate": "28/09/2026"
+    }
+  ],
+  "meta": {
+    "keyboards": {
+      "lastUpdate": "28/09/2026",
+      "author": "aasd"
+    },
+    "mousepads": {
+      "lastUpdate": "28/09/2026",
+      "author": "dangly, aasd, micro, Ness"
+    },
+    "skates": {
+      "lastUpdate": "28/09/2026",
+      "author": "aasd (based on Shwamper)"
+    }
+  }
+}

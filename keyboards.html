@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hall Effect Keyboards - Keetype</title>
+  
+  <style>
+    @font-face {
+      font-family: 'PlayFont';
+      src: url('fonts/play.ttf') format('truetype');
+      font-display: swap;
+    }
+  </style>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/tiles.css">
+  <link rel="stylesheet" href="css/modal.css">
+</head>
+<body data-page="keyboards">
+
+  <!-- Header with Search Bar and DB Controls -->
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="brand" title="Keetype Home">
+        <span class="brand-logo">keetype</span>
+        <span class="brand-dot"></span>
+      </a>
+
+      <!-- Search Bar in Header -->
+      <div class="header-search">
+        <div class="search-wrapper">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input 
+            type="text" 
+            id="searchInput" 
+            class="search-input" 
+            placeholder="Search gear across all libraries (e.g. Statice Seraph, Titan75)..." 
+            autocomplete="off"
+            spellcheck="false"
+          >
+          <button id="searchClearBtn" class="search-clear-btn" title="Clear search">&times;</button>
+        </div>
+        <div id="searchSuggestions" class="search-suggestions"></div>
+      </div>
+
+      <div class="header-actions">
+        <a href="index.html" class="btn-header-home">Home</a>
+        <div class="db-status-bar">
+          <span id="dbIndicator" class="db-indicator" title="Database status"></span>
+          <select id="dbSourceSelect" class="db-select" title="Switch active database">
+            <option value="google_sheets">Live Sheets</option>
+            <option value="fallback">Fallback DB</option>
+          </select>
+          <button id="syncDbBtn" class="btn-sync" title="Sync live Google Sheets">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="23 4 23 10 17 10"></polyline>
+              <polyline points="1 20 1 14 7 14"></polyline>
+              <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Library Page Main -->
+  <main class="container library-main">
+    <!-- Category Tabs Navigation -->
+    <nav class="library-categories-nav" aria-label="Libraries">
+      <a href="keyboards.html" class="library-tab active">Hall Effect Keyboards</a>
+      <a href="mousepads.html" class="library-tab">Glass Mousepads</a>
+      <a href="skates.html" class="library-tab">Skates</a>
+      <a href="mice.html" class="library-tab">Mice <span class="tab-badge-coming-soon">Soon</span></a>
+      <a href="cloth-mousepads.html" class="library-tab">Cloth Mousepads <span class="tab-badge-coming-soon">Soon</span></a>
+      <a href="mx-keyboards.html" class="library-tab">MX Keyboards <span class="tab-badge-coming-soon">Soon</span></a>
+    </nav>
+
+    <!-- Page Header & Count Info -->
+    <div id="resultsBar" class="page-header-row">
+      <div>
+        <div class="page-title-group">
+          <h1 id="pageTitle" class="page-title">Hall Effect Keyboards</h1>
+          <span id="countPill" class="count-pill">0 items</span>
+        </div>
+        <p id="pageSubtitle" class="category-description">Ranked by quality, best → worst in each size category</p>
+      </div>
+    </div>
+
+    <!-- Filter & Sort Bar -->
+    <section id="filterToolbar" class="filter-toolbar">
+      <div id="filterContainer" class="filter-group">
+        <!-- Injected dynamically -->
+      </div>
+      
+      <div class="filter-group">
+        <label for="sortSelect" class="filter-label">Sort:</label>
+        <select id="sortSelect" class="filter-select">
+          <!-- Injected dynamically -->
+        </select>
+        
+        <button id="resetFiltersBtn" class="btn-reset-filters" title="Reset all filters">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+          Clear filters
+        </button>
+      </div>
+    </section>
+
+    <!-- Tiles Grid -->
+    <section id="tilesGrid" class="tiles-grid" aria-label="HE Keyboards Recommendations"></section>
+
+    <!-- Empty State -->
+    <div id="emptyState" class="empty-state">
+      <h3 class="empty-state-title">No products found</h3>
+      <p class="empty-state-desc">Try clearing your filters or refining your search term.</p>
+      <button class="btn-reset-filters" onclick="document.getElementById('resetFiltersBtn').click()">
+        Clear All Filters
+      </button>
+    </div>
+
+    <!-- Coming Soon State -->
+    <div id="comingSoonState" class="coming-soon-state">
+      <div class="coming-soon-icon">⏳</div>
+      <h2 id="comingSoonTitle" class="coming-soon-title">Coming Soon</h2>
+      <p id="comingSoonDesc" class="coming-soon-desc">Testing and benchmarking top gear for this category.</p>
+    </div>
+  </main>
+
+  <!-- Product Details Modal Popup -->
+  <div id="productModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button id="modalCloseBtn" class="modal-close-btn" title="Close modal (Esc)">&times;</button>
+      <div id="modalBody" class="modal-body"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-credits">
+        Made with care by <strong>aasd</strong> &copy;2026
+      </div>
+      <div class="footer-meta">
+        Keetype Gear Recs • Community Curated & Tested
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/fallbackData.js"></script>
+  <script src="js/overrides.js"></script>
+  <script src="js/fetcher.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

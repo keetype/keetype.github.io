@@ -1,0 +1,301 @@
+/* ==========================================================================
+   Keetype v2 - Minimal Product Tiles Grid
+   Clean, modern, uncluttered cards with high scannability.
+   ========================================================================== */
+
+.tiles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 18px;
+}
+
+.product-tile {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.15s ease, transform 0.15s ease, background-color 0.15s ease;
+  position: relative;
+}
+
+.product-tile:hover {
+  background-color: var(--bg-card-hover);
+  border-color: var(--border-hover);
+  transform: translateY(-2px);
+}
+
+/* ==========================================================================
+   Square Preview with Minimal Fallback
+   ========================================================================== */
+
+.preview-container {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  background-color: var(--bg-placeholder);
+  overflow: hidden;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border-hairline);
+}
+
+/* Minimal Grey Box Fallback */
+.preview-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: var(--bg-placeholder);
+  color: var(--text-muted);
+  text-align: center;
+  user-select: none;
+}
+
+.preview-placeholder-name {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  line-height: 1.35;
+  max-width: 90%;
+  word-break: break-word;
+}
+
+/* Image Preview */
+.preview-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Multi-image Carousel Controls */
+.carousel-controls {
+  display: none;
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+}
+
+.carousel-controls.has-multiple {
+  display: flex;
+}
+
+.carousel-btn {
+  pointer-events: auto;
+  background: rgba(10, 11, 14, 0.65);
+  border: 1px solid var(--border-hairline);
+  color: var(--text-main);
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.15s;
+}
+
+.carousel-btn:hover {
+  background: rgba(10, 11, 14, 0.9);
+}
+
+.carousel-dots {
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  display: none;
+  justify-content: center;
+  gap: 5px;
+  pointer-events: none;
+}
+
+.carousel-dots.has-multiple {
+  display: flex;
+}
+
+.carousel-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.15s ease;
+}
+
+.carousel-dot.active {
+  background-color: var(--text-main);
+  transform: scale(1.2);
+}
+
+/* Discreet ID Tag */
+.tile-id-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 0.68rem;
+  font-family: monospace;
+  background: rgba(10, 11, 14, 0.75);
+  color: var(--text-muted);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-hairline);
+  backdrop-filter: blur(4px);
+  z-index: 2;
+}
+
+/* ==========================================================================
+   Tile Content & Details (Uncluttered)
+   ========================================================================== */
+
+.tile-content {
+  padding: 14px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.tile-header {
+  margin-bottom: 8px;
+}
+
+.tile-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-main);
+  line-height: 1.3;
+  cursor: pointer;
+}
+
+.tile-title:hover {
+  color: var(--accent-primary);
+}
+
+/* Subtle, Restrained Tags */
+.tile-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.72rem;
+  font-weight: 500;
+  padding: 2px 7px;
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-subtle);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-hairline);
+  white-space: nowrap;
+}
+
+.tag-tier {
+  color: #fbbf24;
+}
+
+.tag-speed-cloth, .tag-speed-glass {
+  color: #93c5fd;
+}
+
+.tag-avail-yes {
+  color: #34d399;
+}
+
+.tag-avail-no {
+  color: #f87171;
+}
+
+.tag-avail-region {
+  color: #fbbf24;
+}
+
+/* Inline Compact Specs */
+.tile-specs-inline {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Clean Uncluttered Note snippet */
+.tile-notes-snippet {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+}
+
+.tile-notes-snippet:empty {
+  display: none;
+}
+
+/* Action Buttons */
+.tile-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px solid var(--border-hairline);
+}
+
+.btn-tile {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 7px 10px;
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  font-size: 0.78rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  border: 1px solid var(--border-hairline);
+}
+
+.btn-referral {
+  background-color: var(--bg-subtle);
+  color: var(--text-main);
+}
+
+.btn-referral:hover {
+  background-color: var(--bg-subtle-hover);
+  border-color: var(--border-hover);
+}
+
+.btn-copy-code {
+  background-color: transparent;
+  color: var(--text-secondary);
+}
+
+.btn-copy-code:hover {
+  background-color: var(--bg-subtle);
+  color: var(--text-main);
+}
+
+.btn-tile:disabled,
+.btn-tile.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
